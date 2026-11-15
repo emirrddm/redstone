@@ -1,0 +1,41 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded data and caches
+backend/cache/
+dist/
+spikes/out/
+*.fits
+*.fits.gz
+.astropy/
+.tmp/
+tmp*/
+
+# Editors / OS
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+docs/slides/_preview.html
+
+# Real/Bogus model outputs
+ml/checkpoints/
+ml/data/
+
+.vercel
+
+# Local test artifacts
+pytest-of-*/
+*.zip
+*.npz
+*.pt
+*.npy
+
+
+# Community discovery reports written by the running app
+backend/data/

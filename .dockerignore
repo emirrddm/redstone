@@ -1,0 +1,10 @@
+.venv
+.git
+.claude
+backend/cache
+spikes
+tests
+docs
+scripts
+**/__pycache__
+*.fits
